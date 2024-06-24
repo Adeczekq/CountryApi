@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html[data-theme="light"] {
+  background-color: #fafafa; /* light theme background color */
+}
+html[data-theme="dark"] {
+  background-color: #1a1a1a; /* dark theme background color */
+}
